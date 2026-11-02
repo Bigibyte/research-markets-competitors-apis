@@ -1,4 +1,4 @@
-# Research Markets & Competitors APIs: Competitive Intelligence and Market Research Data
+# Market Research APIs: Spy on Competitors and Understand Any Market
 
 <p align="center">
  <img src="https://images.bigibyte.com/projects/bigibyte-github-research-markets-competitors-apis-cover.png" alt="Research Markets & Competitors APIs: market research and competitor APIs" width="100%">
@@ -13,11 +13,12 @@
 <p align="center">
  <a href="#top-10-most-popular">Top 10</a> ·
  <a href="#table-of-contents">Categories</a> ·
- <a href="#how-to-use">How to use</a> ·
- <a href="#faq">FAQ</a>
+ <a href="#more-lists">More lists</a>
 </p>
 
-**A big, tidy list of market research and competitor APIs** for competitive intelligence, company benchmarking, industry data and market signals. **52,455 APIs**, sorted by real users so the useful ones show up first.
+Want to know what your rivals are doing? These APIs collect public facts about competitors, prices, reviews and news, so you can see the whole market at a glance. **52,455 ready-to-use APIs**, sorted by real users so the best ones come first.
+
+These market research and competitor analysis APIs help you gather competitive intelligence from public web data. Use them for competitor price tracking, review and sentiment analysis, SEO and traffic research (Similarweb, Semrush, Ahrefs), real estate and job market data, and industry news monitoring. Each API runs in the cloud and exports JSON, CSV or Excel for your reports and models.
 
 ---
 
@@ -1073,45 +1074,6 @@ If this list helped you, a star helps other people find it too.
 
 
 [View all 226 in this section →](lists/ebay-walmart.md)
-
----
-
-## How to use
-
-1. Open any API link in this repo.
-2. Read the input fields (usually a search keyword, company name or page URL).
-3. Run a small test so you see the output shape.
-4. Export the dataset as JSON, CSV or Excel, or call the same API from your code.
-
-
-```bash
-# Example: send JSON to any HTTP API you choose
-curl -X POST "https://httpbin.org/post" \
- -H "Content-Type: application/json" \
- -d '{"query":"example","limit":10}'
-```
-
----
-
-## FAQ
-
-**What is the best API for competitive intelligence?** 
-Start with the [Top 10](#top-10-most-popular). Tools with more users and a clear rating are usually safer bets. Then browse categories that match your niche.
-
-**How do I research competitors online?** 
-Pick APIs for reviews, ads, SEO/SERP, news and company pages. Run a small test first, then export the rows you need.
-
-**Can I get pricing and product data for a market?** 
-Yes. See product, Shopify/Etsy and Amazon style sections when they appear in the table of contents.
-
-**How is this list organized?** 
-By theme (SEO, reviews, maps, jobs and so on). Full tables live in the [`lists/`](lists/) folder. The README shows a preview of each category.
-
-**How often is it updated?** 
-Last build: 2026-11-02. Rebuild when you need a newer snapshot.
-
-**Why do some ratings say n/a?** 
-That API has no public rating yet.
 
 ---
 
